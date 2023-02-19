@@ -1,0 +1,25 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 2px 30px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    outline: 10px solid blue;
+    outline-offset: 1px;
+}
+a:hover{
+    background-color: chartreuse;
+    color: black;
+    outline: 10px solid chartreuse;
+}
+a:active{
+    background-color: darkgreen;
+}
