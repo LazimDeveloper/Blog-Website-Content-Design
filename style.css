@@ -1,0 +1,50 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: greenyellow;
+    color: black;
+    padding: 20px 30px;
+    width: 70%;
+    margin: 100px auto;
+    border: 15px solid yellow;
+    border-radius: 0px 50px 0px 50px;
+    outline: 15px solid gold;
+    outline-offset: 5px;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    /* border-bottom: 4px solid black; */
+    text-decoration: underline;
+    text-underline-offset:10px;
+}
+p{
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+.btn 
+a:link,
+a:visited{
+    text-decoration: none;
+    color: black;
+    background-color:blue ;
+    padding: 5px 30px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 30px;
+    outline: 5px solid blue;
+}
+a:hover{
+    background-color: brown;
+    outline:5px solid green;
+}
+a:active{ 
+    background-color: blueviolet;
+}
